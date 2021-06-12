@@ -1,37 +1,49 @@
- html, body {
+html, body {
 	margin: 100;
 	padding: 10;
-	color: gold;
+	color: goldenrod;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	line-height: 1.75;
-	background-image: linear-gradient(brown, green);
+	
+	/* background-image: linear-gradient(to right, gold, green); */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-weight: normal;
 	margin-top: 30px;
 	margin-bottom: 15px;
+	width: max-content;
+	color:blanchedalmond;
+	background-image: url("https://www.gardendesign.com/pictures/images/900x705Max/site_3/zen-garden-japanese-garden-raked-gravel-garden-shutterstock-com_15666.jpg");
+	display: flex;
+	flex-direction: column;
 }
 
 h1 {
-	font-size: 84px;
-	color: gold;
+	font-size: 54px;
+	color: black;
+	background-size: cover;
+	height: min-content;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	color:blanchedalmond;
+	background-repeat:round;
+	border-radius: 50px;
 	background-image: url("https://www.gardendesign.com/pictures/images/900x705Max/site_3/zen-garden-japanese-garden-raked-gravel-garden-shutterstock-com_15666.jpg");
 }
 
 h2 {
 	font-family: "Rajdhani", sans-serif;
-	text-shadow: 0px 0px 12px gold;
+	text-shadow: 0px 0px 12px black;
 	font-weight: 700;
-	font-size: 52px;
+	position:fixed;
 }
 
 h3 {
 	font-family: "Rajdhani", sans-serif;
 	text-shadow: 0px 0px 12px rgba(255, 165, 0, 1);
-	font-weight: 700;
-	font-size: 38px;
+	font-weight: 900;
 	margin-top: 20px;
 	margin-bottom: 15px;
 }
@@ -40,6 +52,7 @@ h4 {
 	font-family: "Rajdhani", sans-serif;
 	text-shadow: 0px 0px 12px;
 	font-weight: 700;
+	text-align: right;
 }
 
 p {
@@ -48,6 +61,7 @@ p {
 	width: 65%;
 	max-width: 850px;
 	padding-right: 10px;
+	text-align: left;
 }
 
 a {
@@ -66,8 +80,9 @@ header, .page-wrapper > div, .page-wrapper section > div {
 
 aside.sidebar {
 	position: absolute;
-	right: 1%;
+	right: -6%;
 	top: 300px;
+	margin: 40px;
 	padding: 10px 30px;
 }
 
@@ -87,6 +102,7 @@ section#zen-intro a {
 
 	p {
 		width: 85%;
+		text-align: left;
 	}
 
 	header, .page-wrapper > div, .page-wrapper section > div, aside.sidebar {
@@ -104,5 +120,15 @@ section#zen-intro a {
 
 	h2 {
 		font-size: 42px;
+	}
+
+	footer > a {
+		color: white;
+		background-color: blanchedalmond;
+		text-align: center;
+		font-size: 20px;
+		padding: 10px;
+		border-radius: 7px;
+		width: 100px;
 	}
 }
