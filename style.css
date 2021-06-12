@@ -1,11 +1,10 @@
 html, body {
 	margin: 100;
 	padding: 10;
-	color: goldenrod;
+	color: black;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	line-height: 1.75;
-	
-	/* background-image: linear-gradient(to right, gold, green); */
+	background-image: linear-gradient(to right, gold , green);
 }
 
 h2, h3, h4, h5, h6 {
@@ -15,7 +14,6 @@ h2, h3, h4, h5, h6 {
 	margin-bottom: 15px;
 	width: max-content;
 	color:blanchedalmond;
-	background-image: url("https://www.gardendesign.com/pictures/images/900x705Max/site_3/zen-garden-japanese-garden-raked-gravel-garden-shutterstock-com_15666.jpg");
 	display: flex;
 	flex-direction: column;
 }
